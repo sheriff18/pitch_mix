@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.express as px
 
 # Load the predictions data
-file_path = "C:/Users/lenovo/Desktop/Baseball Assessment/xgboost_predictions_2024.csv"
+file_path = "xgboost_predictions_2024.csv"
 predictions_df = pd.read_csv(file_path)
 
 # Initialize the Streamlit app
